@@ -1,0 +1,373 @@
+@media screen and (max-width: 1000px) {
+    #intestazione {
+      display: none;}
+  }
+        #intestazione{
+            border: 5px solid rgb(0, 0, 0);      
+            width: 1000px;
+            border-radius: 5px;
+            margin: 0 auto;
+            padding: 4px;
+            background-color: rgb(255, 255, 255);
+            font-family: "Lucida Grande", " Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+           text-align: center;      
+        }
+        #Titolo{
+          font-size: 28px;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: black;
+        }
+        #Titolino{
+          font-size: 20px;
+          letter-spacing: 2px;
+          line-height: 20px;
+          font-weight: 500; 
+          color: #808080
+        }
+        #Sottotitoli{
+          font-size: 13px;
+          color: #808080;
+        }
+        #Repubblica{
+          width:200px;
+          height:100px;
+          margin: 15px;
+        }
+        #certiquality{
+          width:125px;
+        }
+       
+	.navbar-nav{
+		text-align: center;
+    background-color: rgba(97, 107, 2, 0.863);
+		padding: 4px;
+		margin: 0 auto;
+		width: 1000px;
+                
+	}
+     
+	.btn{
+    background-color:rgba(2, 35, 107, 0.863); 
+    border-radius: 5px;
+	margin: 6px 5px;
+    width: 0 auto;
+	height: 30px;
+	font:9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	}
+	.btn0{
+		margin: 6px 5px;
+		width: 0 auto;
+  		height: 30px;
+  		background-color: rgba(2, 35, 107, 0.863);
+		font:9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+
+	}
+	.btn9{
+		margin: 6px 5px;	
+  width: 100px;
+  height: 30px;
+  background-color: rgba(2, 35, 107, 0.863);
+  background-image: url("https://www.iisviolamarchesini.edu.it/j2/images/uk__flag.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+ }
+ #BarraDiNavigazione{
+    	text-align: center;
+    	background-color: rgba(107, 2, 2, 0.863);
+    	border-radius: 5px;
+      max-width: 1600px;
+      
+ 	}
+	 
+	.dropdown-menu{
+    	display: none;
+  		position: absolute;
+  		background-color: rgb(33, 224, 33);
+  		min-width: 50px;
+		font:12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	
+	}
+
+	#Cerca{
+	
+	width: 150px;
+	margin: 6px 5px;
+  	height: 30px;
+	font:12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+ 	}
+
+
+ 	#LaScuola{
+  		width: 90px;
+ 	}
+ 	#PersonaleATA{
+  	width: 115px;
+ 	}
+
+ 
+
+	.casellaPlessi{
+    	font: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    	text-align: left;
+   		 border: 1px ;
+   		 border-radius: 4px;
+    	background-color: #F2F2F2;
+    	margin: 10px 50px;
+  	}
+
+  .casellaIndirizzi{
+    	border: 1px;
+    	border-radius: 4px;
+    	text-align: left;
+    	background-color: #F2F2F2;
+    	font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    	margin: 20px 50px;
+  }
+
+  .casellaIndirizziProfessionali{
+    	border: 1px;
+    	border-radius: 4px;
+    	text-align: left;
+    	background-color: #F2F2F2;
+   		 font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    	margin: 20px 50px;
+  }
+
+  .casellaPonSinistra{
+    	border: 1px;
+    	border-radius: 4px;
+    	color: black;
+    	text-align: left;
+    	background-color: #F2F2F2;
+    	font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    	margin: 20px 50px;
+  } 
+
+ #ImmaginePON{
+   		 width: 175px;   
+    
+  }
+  .casellaPon2014-2020{
+    	border: 1px;
+    	border-radius: 4px;
+    	background-color: #F2F2F2;
+    	color: #3377BB;
+    	text-align: center;
+    	font: normal 14px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    	margin-bottom: 40px;
+      margin-right: 40px ;
+    margin-left: 40px;; }
+
+  #Pon2014-2020{
+    	width: 175px;}
+  
+
+  .casellaCorsoDocentiSicurezza{
+    	border: 1px;
+    	border-radius: 4px;
+    	color: #3377BB;
+    	text-align: center;
+    	background-color: #F2F2F2;
+    	font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+      margin-bottom: 40px;
+      margin-right: 40px;
+    margin-left: 40px;}
+
+
+  #CorsoSicurezza{
+    width: 150px;      
+  }
+
+  .casellaTourVirtuale{
+    border: 1px;
+    border-radius: 4px;
+    color: #3377BB;
+    text-align: center;
+    background-color: #F2F2F2;
+    font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;;
+  }
+  #TourVirtuale{
+    text-align: center;
+    width: 200px;  
+  }
+  .caselleLaScuolaOnline{
+    border: 1px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #F2F2F2;
+    font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;;
+  }
+  #ClasseViva{
+    text-align: center;
+    width: 200px;    
+  }
+  #albo_online{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;        
+  }
+  #AmministrazioneTrasparente{
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;     
+  }
+  #Comunicati{
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;        
+  }
+  #ScuolaETerritorio{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 200px;         
+  }
+  .EducazioneCivica
+  {border: 1px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #F2F2F2;
+    font: normal 12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;;
+
+  }
+  #Educazione_Civica{
+    text-align: center;
+    width: 180px;
+    ;
+  }
+  
+  
+  .Moodle{
+    border: 1px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #F2F2F2;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;;
+  }
+  #Moodle{
+   text-align: center;
+   width: 200px;         
+  }
+  .Bionet{
+   border: 1px;
+   border-radius: 4px;
+   text-align: center;
+   background-color: #F2F2F2;
+   margin-bottom: 40px;
+   margin-right: 40px;
+   margin-left: 40px;;
+  }
+  #Bionet{
+   text-align: center;
+   width: 200px;         
+  }
+    #corpoCentrale{
+   max-width: 1500px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+	
+    padding: 4px;
+    background-color: white;
+  }
+
+    .RisorseDDI{
+                
+   border-radius: 4px;
+   color: #3377BB;
+   text-align: left;
+   background-color: #F2F2F2;
+   font-family: 12px "Lucida Grande", " Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+   margin: 10px 50px;
+   width: auto;              
+}
+
+    .Home{             
+   text-align: left;
+   background-color:#F2F2F2;
+   font-family:12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+   margin: 10px 50px;
+   width: auto; 
+}
+
+
+    .finePagina{
+      margin-top: 20px;
+      text-align: center;
+      font-weight: 100px;
+      color: black;
+	  
+      
+}
+    .Privacy{
+		margin-top: 20px;;
+      text-align: center;
+}
+   #PrivacyPolice{
+
+		background-color: black;
+		color: white;
+}
+   #CookiePolice{
+	background-color: black;
+		color: white;
+
+}
+     nav{
+  	text-align: center;
+}
+#menubar{
+    background: #000000;
+    width: 100%;
+    height: auto;
+}
+
+.selection{
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+}
+
+.divsel:hover{
+    background: #ffffff url(https://www.iisviolamarchesini.edu.it/j2/templates/tk_gen_free_ii/images/menubargradient.png) repeat-x;
+    border-width: thin;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 5px;
+}
+
+#toolbar{
+    text-align: center;
+    padding: 5px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#searchForm{
+    width: 176px;
+    height: 34px;
+    border-radius: 5px;
+    border-color: #0000;
+    border-style: solid;
+    border-width: thin;
+}
+button{
+    border-width: thin;
+    border-style: solid;
+    border-color: #000;
+    font-size: 15px;
+}
