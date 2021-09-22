@@ -38,64 +38,7 @@
           width:125px;
         }
        
-	.navbar-nav{
-		text-align: center;
-    background-color: rgba(97, 107, 2, 0.863);
-		padding: 4px;
-		margin: 0 auto;
-		width: 1000px;
-                
-	}
-     
-	.btn{
-    background-color:rgba(2, 35, 107, 0.863); 
-    border-radius: 5px;
-	margin: 6px 5px;
-    width: 0 auto;
-	height: 30px;
-	font:9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-	}
-	.btn0{
-		margin: 6px 5px;
-		width: 0 auto;
-  		height: 30px;
-  		background-color: rgba(2, 35, 107, 0.863);
-		font:9px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 
-	}
-	.btn9{
-		margin: 6px 5px;	
-  width: 100px;
-  height: 30px;
-  background-color: rgba(2, 35, 107, 0.863);
-  background-image: url("https://www.iisviolamarchesini.edu.it/j2/images/uk__flag.png");
-  background-repeat: no-repeat;
-  background-position: center center;
- }
- #BarraDiNavigazione{
-    	text-align: center;
-    	background-color: rgba(107, 2, 2, 0.863);
-    	border-radius: 5px;
-      max-width: 1600px;
-      
- 	}
-	 
-	.dropdown-menu{
-    	display: none;
-  		position: absolute;
-  		background-color: rgb(33, 224, 33);
-  		min-width: 50px;
-		font:12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-	
-	}
-
-	#Cerca{
-	
-	width: 150px;
-	margin: 6px 5px;
-  	height: 30px;
-	font:12px 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
- 	}
 
 
  	#LaScuola{
@@ -275,7 +218,7 @@
    width: 200px;         
   }
     #corpoCentrale{
-   max-width: 1500px;
+   max-width: 1350px;
     height: auto;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
@@ -324,50 +267,51 @@
    #CookiePolice{
 	background-color: black;
 		color: white;
+}
+#Cerca{
+  height: 34px;
+  border-radius: 90px;
+  border-color: #0000;
+  border-style: solid;
+  border-width: thin;
+ 
+}
+@media (min-width: 1200px){
+  #navbar{margin-left: 250px;
+    background-color: transparent;
+    }
+  
+}
+#england{
+  background-color: grey;
+  border-radius: 90px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;;
 
 }
-     nav{
-  	text-align: center;
-}
-#menubar{
-    background: #000000;
-    width: 100%;
-    height: auto;
+#Home1{
+  background-color: rgb(0, 132, 255);
+  border-radius: 10px;
+  color: black;
 }
 
-.selection{
-    text-align: center;
-    float: left;
-    color: #fff;
-    font-size: 10px;
+#navbarDropdown
+{
+  font-size: 13px;
+  font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  background: rgb(0, 132, 255);
+  border-radius: 20px;
+  margin-top: 5px;
+ color: black;
+ 
+}
+.dropdown-item{
+  font-size: 12px;
+  font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  background-color: rgb(231, 247, 0);
+  border:1px solid;
 }
 
-.divsel:hover{
-    background: #ffffff url(https://www.iisviolamarchesini.edu.it/j2/templates/tk_gen_free_ii/images/menubargradient.png) repeat-x;
-    border-width: thin;
-    border-style: solid;
-    border-color: #000;
-    border-radius: 5px;
-}
 
-#toolbar{
-    text-align: center;
-    padding: 5px;
-    max-width: 1100px;
-    margin: auto;
-}
-
-#searchForm{
-    width: 176px;
-    height: 34px;
-    border-radius: 5px;
-    border-color: #0000;
-    border-style: solid;
-    border-width: thin;
-}
-button{
-    border-width: thin;
-    border-style: solid;
-    border-color: #000;
-    font-size: 15px;
-}
+ 
