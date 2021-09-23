@@ -276,12 +276,7 @@
   border-width: thin;
  
 }
-@media (min-width: 1200px){
-  #navbar{margin-left: 250px;
-    background-color: transparent;
-    }
-  
-}
+
 #england{
   background-color: grey;
   border-radius: 90px;
@@ -291,7 +286,7 @@
 
 }
 #Home1{
-  background-color: rgb(0, 132, 255);
+  background-color: orange;
   border-radius: 10px;
   color: black;
 }
@@ -300,7 +295,7 @@
 {
   font-size: 13px;
   font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-  background: rgb(0, 132, 255);
+  background: orange;
   border-radius: 20px;
   margin-top: 5px;
  color: black;
@@ -311,6 +306,11 @@
   font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
   background-color: rgb(231, 247, 0);
   border:1px solid;
+}
+@media (min-width: 1199px){
+  #navbar{margin-left: 250px;
+    }
+  
 }
 
 
