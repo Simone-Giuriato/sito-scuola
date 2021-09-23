@@ -4,7 +4,7 @@
   }
         #intestazione{
             border: 5px solid rgb(0, 0, 0);      
-            width: 1000px;
+            max-width: 1100px;
             border-radius: 5px;
             margin: 0 auto;
             padding: 4px;
@@ -37,19 +37,20 @@
         #certiquality{
           width:125px;
         }
-       
-
-
-
- 	#LaScuola{
-  		width: 90px;
- 	}
- 	#PersonaleATA{
-  	width: 115px;
- 	}
-
- 
-
+        #wrapper{
+          text-align: center;
+          padding: 5px;
+          max-width: 1100px;
+          margin: auto;
+        }
+        #menu{
+          width: 100%;
+          height: auto;
+          background-color: orange;
+        }      
+        #barra{
+          padding-bottom: 10px;
+        }
 	.casellaPlessi{
     	font: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
     	text-align: left;
@@ -282,7 +283,7 @@
   border-radius: 90px;
   height: 25px;
   margin-top: 10px;
-  margin-left: 10px;;
+  margin-left: 10px;
 
 }
 #Home1{
@@ -295,10 +296,8 @@
 {
   font-size: 13px;
   font-family: 'Lucida Grande', ' Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-  background: orange;
-  border-radius: 20px;
   margin-top: 5px;
- color: black;
+  color: black;
  
 }
 .dropdown-item{
@@ -307,11 +306,3 @@
   background-color: rgb(231, 247, 0);
   border:1px solid;
 }
-@media (min-width: 1199px){
-  #navbar{margin-left: 250px;
-    }
-  
-}
-
-
- 
